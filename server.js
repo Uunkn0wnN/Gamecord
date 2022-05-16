@@ -3,7 +3,7 @@ const express = require("express")
 const server = express()
 
 server.all("/", (req, res) => {
-  res.send('<meta http-equiv="refresh" content="0; URL=https://phantom.is-a.dev/support"/>')
+  res.send('<meta http-equiv="refresh" content="0; URL=https://shiroweb-dashboard.221447.repl.co/pages/team.html"/>')
 })
 
 function keepAlive() {
