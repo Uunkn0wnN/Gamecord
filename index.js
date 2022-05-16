@@ -5,8 +5,8 @@ const { Client } = require('discord.js-selfbot-v11')
 const client = new Client();
 
 client.on('ready', () => { 
-  client.user.setActivity("Cyberpunk 2077", { type: "PLAYING"})
-   console.log(`${client.user.username} Successfully Logged in!`)
+  client.user.setActivity("5 accounts┃95 servers┃https://github.com/Uunkn0wnN", { type: "WATCHING"})
+   console.log(`berhasil masuk ke akun ${client.user.username}`)
 })
 
 keepAlive()
